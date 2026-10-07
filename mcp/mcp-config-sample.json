@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "safe-calculation": {
+      "command": "node",
+      "args": ["<SCME_DIR>/mcp/dist/index.js"],
+      "cwd": "<SCME_DIR>/mcp",
+      "description": "Safe Calculation Math Engine - 25+ operations (CASIO fx-570ES PLUS parity)"
+    }
+  }
+}

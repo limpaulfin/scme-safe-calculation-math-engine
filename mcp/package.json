@@ -1,0 +1,30 @@
+{
+  "name": "mcp-safe-calculation",
+  "version": "1.1.0",
+  "description": "MCP wrapper for safe-calculation-math-engine (Python CLI core)",
+  "type": "module",
+  "bin": {
+    "mcp-safe-calculation": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": ["mcp", "calculator", "math-engine", "scientific-calculator"],
+  "author": "fong",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "execa": "^9.3.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.16.2",
+    "typescript": "^5.6.3"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
